@@ -12,7 +12,7 @@
 - [Mock Service Worker](https://v1.mswjs.io/docs/)
 
 
-## 🚀 Executando o projeto
+## 🚀 Executando o projeto 
 
 ### Primeiro, clone o projeto:
 
