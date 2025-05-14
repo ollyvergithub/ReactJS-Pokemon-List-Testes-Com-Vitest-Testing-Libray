@@ -14,6 +14,14 @@
 
 ## 🚀 Executando o projeto
 
+### Primeiro, clone o projeto:
+
+### 🔄 via HTTPS
+    $ git clone https://github.com/ollyvergithub/ReactJS-Pokemon-List-Testes-Com-Vitest-Testing-Libray.git
+
+### 🔐 via SSH
+    $ git@github.com:ollyvergithub/ReactJS-Pokemon-List-Testes-Com-Vitest-Testing-Libray.git
+
 ### Instale as dependências do projeto e da API
 ```bash
 cd project-01
@@ -40,7 +48,7 @@ npm run dev
 yarn dev
 ```
 
-Após isso, a API estará executando no endereço [localhost:3000](http://localhost:3000) e o o projeto estará executando no endereço [localhost:5173](http://localhost:5173).
+Após isso, a API estará executando no endereço [localhost:3000/pokemon](http://localhost:3000/pokemon) e o projeto estará executando no endereço [localhost:5173](http://localhost:5173).
 
 
 ## 🧪 Executando os testes
