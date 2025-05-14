@@ -1,0 +1,62 @@
+# React + TypeScript + Testing Libraty + Vitest + Faker + Mock Service Worker
+
+## Projeto criado para implementação de testes unitários e de integração no FrontEnd
+
+## 🥞 Stack
+
+- [React v18](https://react.dev/reference/react)
+- [TypeScript](https://www.typescriptlang.org/docs/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Vitest](https://vitest.dev/guide/)
+- [FakerJS](https://fakerjs.dev/guide)
+- [Mock Service Worker](https://v1.mswjs.io/docs/)
+
+
+## 🚀 Executando o projeto
+
+### Instale as dependências do projeto e da API
+```bash
+cd project-01
+npm install
+# or
+yarn
+
+cd pokemon-fake-api
+npm install
+# or
+yarn
+```
+
+### Execute o projeto
+```bash
+cd pokemon-fake-api
+npm run dev
+# or
+yarn dev
+
+cd project-01
+npm run dev
+# or
+yarn dev
+```
+
+Após isso, a API estará executando no endereço [localhost:3000](http://localhost:3000) e o o projeto estará executando no endereço [localhost:5173](http://localhost:5173).
+
+
+## 🧪 Executando os testes
+
+```bash
+cd project-01
+npm run test
+# or
+yarn run test
+```
+
+
+## 🧪 Executando a cobertura dos testes
+
+```bash
+cd project-01
+npm run test:coverage
+# or
+yarn run test:coverage
