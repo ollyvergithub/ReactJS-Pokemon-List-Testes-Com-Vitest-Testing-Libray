@@ -2,6 +2,8 @@
 # GERAL (válido para todo o repositório)
 # ============================================
 
+_material
+
 # Logs
 logs/
 *.log
