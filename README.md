@@ -1,6 +1,6 @@
-# React + TypeScript + Testing Libraty + Vitest + Faker + Mock Service Worker
+# React + TypeScript + Testing Libraty + Vitest + Faker + Mock Service Worker + Cypress
 
-## Projeto criado para implementação de testes unitários e de integração no FrontEnd
+## Projeto criado para implementação de testes unitários, de integração e E2E (End-to-End) no FrontEnd
 
 ## 🥞 Stack
 
@@ -10,6 +10,7 @@
 - [Vitest](https://vitest.dev/guide/)
 - [FakerJS](https://fakerjs.dev/guide)
 - [Mock Service Worker](https://v1.mswjs.io/docs/)
+- [Cypress](https://docs.cypress.io/app/get-started/why-cypress)
 
 
 ## 🚀 Executando o projeto 
@@ -60,7 +61,6 @@ npm run test
 yarn run test
 ```
 
-
 ## 🧪 Executando a cobertura dos testes
 
 ```bash
@@ -68,3 +68,18 @@ cd project-01
 npm run test:coverage
 # or
 yarn run test:coverage
+```
+
+## 🧪 Executando os testes E2E (End-to-End) com Cypress
+
+```bash
+cd project-01
+npm run dev
+# or
+yarn dev
+
+npm run cypress:open
+# or
+yarn run cypress:open
+```
+
